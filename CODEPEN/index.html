@@ -1,35 +1,21 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
- <head>
-  <canvas id=c></canvas>
-  <!--
-  
-  ALGORITHM:
-  
-  structure:
-  - gen( x,y,z ):
-      - create node at x,y,z // blue
-      - append some children to list:
-          - within a certain distance to parent
-          - outside a certain distance from any node
-          - within a global distance
-      - if no children
-          - don't append any
-          - set as end node // green-ish
-  
-  - gen( 0,0,0 ) // red
-  - while list has items
-      - gen( position of first item )
-      - remove first item
-  
-  
-  impulse behaviour:
-  - pick( node ):
-      - if node is end node
-          - pick( original node )
-      - else
-          - pick( random node from node children )
-  
-  - pick( original node)
-  
-  -->
+  <head>
+    <meta charset="utf-8">
+    <title>Index page</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#fff">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="stylesheet" media="all" href="css/app.css"> </head>
+  <body>
+    <!-- BEGIN content -->
+    <div class="out">
+      <div id="container"></div>
+    </div>
+    <!-- END content -->
+    <!-- BEGIN scripts -->
+    <script type="text/javascript" src="js/app.js"></script>
+    <!-- END scripts -->
+  </body>
+</html>
