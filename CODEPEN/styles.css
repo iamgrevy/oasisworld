@@ -103,7 +103,7 @@
   
   .btn.btn-background-circle:hover::before,
   .btn.btn-background-circle:focus::before {
-    transform: scale(0);
+    transform: scale(10);
   }
   
   .btn.btn-background-circle {
