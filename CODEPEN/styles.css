@@ -79,7 +79,7 @@
   
   .btn.btn-background-slide:hover,
   .btn.btn-background-slide:focus {
-    color: white;
+    color: rgb(255, 0, 0);
   }
   
   
